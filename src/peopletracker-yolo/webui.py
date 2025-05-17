@@ -78,7 +78,7 @@ st.set_page_config(layout="wide", page_title="People Tracker")
 
 st.write("## People Tracker")
 st.write(
-    "Try uploading a video to track people in it. This code is open source and available [here](https://github.com/SirPersimmon/peopletracker) on GitHub. Special thanks to the [liveposetracker](https://github.com/ortegatron/liveposetracker)"
+    "Try uploading a video to track people in it. This code is open source and available [here](https://github.com/SirPersimmon/peopletracker-yolo) on GitHub. Special thanks to the [YOLOv7-DeepSORT-Human-Tracking](https://github.com/dasupradyumna/YOLOv7-DeepSORT-Human-Tracking)"
 )
 st.sidebar.write("## Upload :gear:")
 
