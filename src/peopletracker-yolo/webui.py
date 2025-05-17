@@ -3,6 +3,10 @@ import tempfile
 import time
 import traceback
 
+# Workaround for error 'Examining the path of torch.classes raised' in containers.
+import torch
+torch.classes.__path__ = []
+
 import streamlit as st
 
 import analyzer
