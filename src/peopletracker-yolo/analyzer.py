@@ -190,6 +190,8 @@ class Input:
             self.currentFrame, bboxes, scores.flatten(), self.frame_number
         )
 
+        self.currentFrame = cv2.cvtColor(self.currentFrame, cv2.COLOR_RGB2BGR)
+
         return result
 
     def get_stats(self):
